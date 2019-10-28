@@ -1,7 +1,7 @@
 document.body.innerHTML += "<button value=\"\" class=\"btn\" onclick=\"addText();\">" + some + "</button>";
-document.body.innerHTML += "<button value=\"\" class=\"btn\" onclick=\"addVara();\">" + "+" + "</button>";
+document.body.innerHTML += "<button value=\"\" class=\"btn\" onclick=\"addTex();\">" + "+" + "</button>";
 document.body.innerHTML += "<button value=\"\" class=\"btn\" onclick=\"\">" + "-" + "</button>";
-document.body.innerHTML += "<input type=\"text\" name=\"pole\" size=\"10\" maxlength=\"15\" value=\"hello world\" />";
+document.body.innerHTML += "<input type=\"text\" name=\"pole\" size=\"10\" maxlength=\"15\" value=\"123\" />";
 document.body.innerHTML += "<p><button value=\"\" class=\"btn\" onclick=\"addStyle();\">" + "addStyle" + "</button></p>";
 document.body.innerHTML += "<br>";
 document.body.innerHTML += "Нажми её, чтобы добавить текст ниже";
@@ -12,7 +12,7 @@ var tex = "текст";
 function addText() {
     document.body.innerHTML += text;
 }
-function addVara() {
+function addTex() {
     document.body.innerHTML += tex;
 }
 
