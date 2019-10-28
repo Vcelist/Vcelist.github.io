@@ -8,7 +8,7 @@ document.body.innerHTML += "Нажми её, чтобы добавить тек�
 document.body.innerHTML += "<br>";
 document.body.innerHTML += "<br>";
 var text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis et soluta blanditiis voluptates pariatur, ducimus molestiae commodi placeat quae doloremque optio eum eveniet, at odio harum cumque architecto, sapiente saepe. ";
-var tex = "текст";
+var tex = "<p>текст</p>";
 function addText() {
     document.body.innerHTML += text;
 }
