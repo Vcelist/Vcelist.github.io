@@ -10,7 +10,9 @@ document.body.innerHTML += "<br>";
 var text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis et soluta blanditiis voluptates pariatur, ducimus molestiae commodi placeat quae doloremque optio eum eveniet, at odio harum cumque architecto, sapiente saepe. ";
 var tex = "<p>текст</p>";
 function addText() {
+    document.body.innerHTML += "<p></p>";
     document.body.innerHTML += text;
+    document.body.innerHTML += "<p></p>";
 }
 function addTex() {
     document.body.innerHTML += tex;
