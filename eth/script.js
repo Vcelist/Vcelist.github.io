@@ -23,6 +23,6 @@ function addStyle() {
     document.body.style = "background:#D8E0E7; color:red; font-size:18px;"
 }
 function remStyle() {
-    document.body.innerHTML += "<style></style>";
+    document.body.innerHTML += "<style>.btn{}</style>";
     document.body.style = ""
 }
